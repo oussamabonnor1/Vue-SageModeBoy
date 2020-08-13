@@ -74,7 +74,7 @@ import CreditsPopUp from "@/components/CreditsPopUp.vue"
 export default {
   data: () => ({
     drawer: false,
-    snackbar: true,
+    snackbar: false,
     links: [
       { icon: "mdi-view-dashboard", text: "Dashboard", route: "/" },
       { icon: "mdi-folder", text: "My projects", route: "/projects" },
